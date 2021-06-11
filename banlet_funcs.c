@@ -95,7 +95,7 @@ int *find_linebreaks(char *msg, int *nbreaks){
 // scans across 'msg' again printing characters from the next row.
 // Each msg[i] character is used to as the index into fonts->glyphs[]
 // to access the "glyph" that will be printed.
-//
+// You can check the console for debugging.
 // NOTE: This function does NOT handle embedded newline '\n'
 // characters. It is intended to be called repeatedly on each line in
 // multiline text with '\n' characters found using the

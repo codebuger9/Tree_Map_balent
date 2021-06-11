@@ -1,5 +1,6 @@
 // PROVIDED: Makes use of functions provided in banlet_funcs.c to
 // print messages in a "fontified" fashion. This program should not
+// don't need to print some various king of 
 // require modification.
 #include "banlet.h"
 

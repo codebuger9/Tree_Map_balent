@@ -282,6 +282,7 @@ void node_print_revorder(node_t *cur, int indent){
 // Print all the data in the tree in pre-order with indentation
 // correspoinding to the depth of the tree. Makes use of 
 // node_write_preorder() for this.
+// Attentively watch about the print style
 void treemap_print_preorder(treemap_t *tree){
 
 	if (tree == NULL){
